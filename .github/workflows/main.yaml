@@ -40,4 +40,4 @@ jobs:
       run: npm install --global surge  
       
     - name: deployment on surge domain
-      run: surge ./build todo-app-ts.surge.sh --token${{secrets.SURGE_TOKEN}} 
+      run: surge ./build todo-app-ts.surge.sh --token ${{secrets.SURGE_TOKEN}} 
